@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2E2E">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        tools:context=".ContentActivity"
+        tools:ignore="MergeRootFrame"/>
+
+    <Button
+        android:id="@+id/recordBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:width="180dp"
+        android:layout_gravity="center"
+        android:text="녹음"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:id="@+id/recordStopBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:width="180dp"
+        android:layout_gravity="center"
+        android:text="녹음중지"
+        style="@android:style/Widget.Holo.Button.Toggle" />
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:width="180dp"
+        android:layout_gravity="center"
+        android:text="재생"
+        style="@android:style/Widget.Holo.Button.Toggle" />
+
+    <Button
+        android:id="@+id/playStopBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:width="180dp"
+        android:layout_gravity="center"
+        android:text="재생중지"
+        style="@android:style/Widget.Holo.Light.Button.Toggle" />
+
+
+    <Button
+        android:id="@+id/btDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:width="180dp"
+        android:layout_gravity="center"
+        android:text="Download"
+        style="@android:style/Widget.Material.Light.Button.Borderless.Small" />
+
+</LinearLayout>
